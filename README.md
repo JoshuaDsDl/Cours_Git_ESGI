@@ -1,46 +1,48 @@
-# Cours_Git_ESGI
+# Joshua & Louis présentation
 
-## Guide d'utilisation pour GIT:
+## Guide d'utilisation pour GIT
 
-Git, le maestro du contrôle de version décentralisé, offre une expérience "bing chilling" pour suivre l'évolution de vos fichiers au fil du temps. Il est le partenaire idéal pour la gestion de projets et le développement collaboratif.
+Git est un système de contrôle de version décentralisé qui permet de suivre les modifications apportées à un ensemble de fichiers au fil du temps. Il est largement utilisé pour la gestion de projet et le développement collaboratif.
 
 ### Principes fondamentaux de Git
 
-1. **Bing Chilling Dépôt (Repository):** Un espace où vos projets prennent vie. Qu'il soit local sur votre machine ou perché sur un serveur distant, c'est là que la magie opère.
+1. **Dépôt (Repository):** Un dépôt Git est un espace où vos projets sont stockés. Il peut être local sur votre machine ou distant sur un serveur.
 
-2. **Bing Chilling Commit:** Chaque commit est une éclatante version de vos fichiers, accompagnée d'un message qui révèle ses secrets.
+2. **Commit:** Un commit représente une version spécifique de vos fichiers. Chaque commit est accompagné d'un message qui décrit les modifications apportées.
 
-3. **Bing Chilling Branch (Branche):** Une branche, c'est comme une fête privée pour le développement. Vous pouvez y travailler sur des fonctionnalités ou des corrections de bugs sans perturber la branche principale, qui, en général, s'appelle `main` ou `master`.
+3. **Branch (Branche):** Une branche est une ligne de développement indépendante qui permet de travailler sur des fonctionnalités ou corrections de bugs sans perturber la branche principale (généralement `main` ou `master`).
 
 ### Commandes Git courantes
 
-- `git init`: Lance la soirée Git dans un nouveau dépôt.
-- `git add <fichier>`: Invite les modifications à rejoindre la fête du prochain commit.
-- `git commit -m "Message du commit"`: Crée un nouveau commit avec un message qui assure que la fête restera dans les mémoires.
-- `git pull`: Ramène les modifications depuis le dancefloor distant.
-- `git push`: Envoie vos commits locaux dans le monde extérieur du dépôt distant.
+- `git init`: Initialise un nouveau dépôt Git.
+- `git add <fichier>`: Ajoute des modifications pour être incluses dans le prochain commit.
+- `git commit -m "Message du commit"`: Crée un nouveau commit avec un message descriptif.
+- `git pull`: Récupère les modifications depuis un dépôt distant.
+- `git push`: Envoie les commits locaux vers un dépôt distant.
 
-## Guide d'utilisation pour GITHUB:
+## Guide d'utilisation pour GITHUB
 
-GitHub, le lieu de rendez-vous en ligne construit autour de Git, rend la collaboration, la gestion des problèmes, et le déploiement de projets aussi "bing chilling" que possible.
+GitHub est une plateforme web construite autour de Git qui facilite la collaboration, le suivi des problèmes, et le déploiement de projets.
 
 ### Principales fonctionnalités de GitHub
 
-1. **Bing Chilling Repository (Dépôt):** Un espace où vos projets Git font la fête, sont à la mode, et se partagent avec style.
+1. **Repository (Dépôt):** Un espace où vos projets Git peuvent être stockés, suivi et partagés avec d'autres.
 
-2. **Pull Request (Demande de tirage):** Une invitation à danser, proposant des modifications au dépôt et demandant à d'autres de se joindre à la fête.
+2. **Pull Request (Demande de tirage):** Permet de proposer des modifications à un dépôt et de demander à d'autres de les fusionner.
 
-3. **Bing Chilling Issues (Problèmes):** Utilisées pour garder le fil des tâches, des fonctionnalités, des bugs, et autres anecdotes de la soirée.
+3. **Issues (Problèmes):** Utilisées pour suivre les tâches, les fonctionnalités, les bugs, etc.
 
-4. **Forks (Fourches):** Une façon élégante de copier un dépôt existant et de le faire briller sous votre propre compte GitHub.
+4. **Forks (Fourches):** Permet de copier un dépôt existant sous votre propre compte GitHub.
 
-5. **Branches Protégées:** Un moyen chic de limiter les modifications à certaines branches, assurant la qualité irréprochable du code.
+5. **Branches Protégées:** Permet de restreindre les modifications à certaines branches pour maintenir la qualité du code.
 
 ### Flux de travail typique avec GitHub
 
-1. **Cloner le dépôt:** `git clone <URL>` pour copier le groove du dépôt sur votre machine.
-2. **Créer une branche:** `git branch <nom_de_branche>` et `git checkout <nom_de_branche>` pour injecter de nouvelles vibes dans une fonctionnalité.
-3. **Effectuer des modifications:** Faites évoluer vos fichiers avec style, utilisez `git add` et `git commit` pour les garder en réserve localement.
-4. **Pousser les modifications:** `git push origin <nom_de_branche>` pour diffuser vos modifications sur le dancefloor GitHub.
-5. **Créer une Pull Request:** Sur GitHub, proposez vos modifications avec élégance en créant une Pull Request depuis votre branche vers la branche principale.
-6. **Réviser et Fusionner:** Les collaborateurs peuvent examiner les modifications avec classe, poser des questions, et fusionner les améliorations dans la branche principale. La soirée continue !
+1. **Cloner le dépôt:** `git clone <URL>` pour copier un dépôt sur votre machine.
+2. **Créer une branche:** `git branch <nom_de_branche>` et `git checkout <nom_de_branche>` pour travailler sur une nouvelle fonctionnalité.
+3. **Effectuer des modifications:** Faites des modifications dans vos fichiers et utilisez `git add` et `git commit` pour les sauvegarder localement.
+4. **Pousser les modifications:** `git push origin <nom_de_branche>` pour envoyer vos modifications sur GitHub.
+5. **Créer une Pull Request:** Sur GitHub, proposez vos modifications en créant une Pull Request depuis votre branche vers la branche principale.
+6. **Réviser et Fusionner:** Les collaborateurs peuvent examiner les modifications, poser des questions et fusionner les modifications dans la branche principale.
+
+## Fin de présentation
